@@ -92,15 +92,16 @@ img {
 .focus__title::before {
   position: absolute;
   content: "";
-  top: 25px;
+  top: 22px;
+  bottom: 0px;
   left: 0;
-  width: 2px;
+  width: 5px;
   height: 120px;
   background-color: rgba(255, 99, 71, 0.986);
 }
 .focus__title h1 {
   font-size: 60px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .focus__content span {
   display: block;
@@ -146,6 +147,27 @@ img {
   font-size: 17px;
 }
 /* mission-section end here */
+/* develop-section start here */
+.develop {
+  background: url(../../assets/images/shapes/shape-1.png) no-repeat;
+  background-position: left center;
+  background-size: 200px;
+}
+.develop__img {
+  margin-left: 80px;
+}
+
+/* develop-section end here */
+/* presentation-section start here */
+.presentation {
+  background: url(../../assets/images/shapes/shape-1.png) no-repeat;
+  background-size: 160px;
+  background-position: right 250px;
+  padding-bottom: 60px;
+  margin-left: 130px;
+}
+
+/* presentation-section end here */
 /* contact-section start here */
 .contact__img {
   padding-top: 100px;
